@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>RoseMuse</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="loogo.png">
+  </head>
+  <body>
+     <div class="container">
+          <div class="navbar">
+            <img src="loogo.png" class="logo">
+            <ul>
+              <li ><a href="#🌹" class="s und">Home</a></li>
+              <li  ><a href="#✨" class="s und">About</a></li>
+              <li ><a href="#🎶" class="s und">Spotify</a></li>
+              <li ><a href="#📞" class="s und">Connect</a></li>
+            </ul>
+          </div>
+
+           <div class="content">
+             <div class="lft">
+              <!--all rose golds #F9F1F0 #FADCD9 #F8AFA6 #F79489 -->
+               <h1><br>ROSE <br> GOLD <br>MUSE </h1>
+             </div>
+             <div class="ryt">
+                 <p class="s">Click To Play</p>
+                 <img src="play.png" id="icon">
+             </div>
+           </div>
+
+       <audio id="song" src="danse.mp3"> </audio>
+
+     <script type="text/javascript">
+        var mysong  =document.getElementById("song");
+        var icon    =document.getElementById("icon");
+
+        icon.onclick= function(){
+          if(mysong.paused){
+            mysong.play();
+            icon.src="pause.png";
+          }
+          else{
+            mysong.pause();
+            icon.src="play.png";
+          }
+
+        }
+     </script>
+
+
+
+
+
+
+
+
+     </div>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:sans-serif;
+}
+
+.container{
+  height: 100vh;
+  width: 100%;
+  background-image: url("headphones.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.logo{
+  position: relative;
+  top:20px;
+  width:80px;
+  height: 80px;
+  cursor: pointer;
+}
+.navbar{
+  width: 95%;
+  margin-left: 40px;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: #ffda61;
+  /* color: #D3AE36; */
+  font-size: 18px;
+}
+
+
+.lft h1{
+  margin-left: 20px;
+  text-align: center;
+
+  font-size: 50px;
+  color: #FADCD9;
+  line-height:70px;
+  float: left;
+}
+
+.ryt{
+  float: right;
+  margin-right:2%;
+  margin-top: 120px;
+  display: flex;
+  align-items:center;
+}
+
+.ryt p{
+  font-size: 16px;
+  color:#ffda61;
+  font-weight: 400;
+}
+
+
+.s:hover{
+  color: #F79489;
+}
+
+.und{
+  position: relative;
+}
+.und:before{
+  content: "";
+  position: absolute;
+  /* width: 100%;  middle */
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FADCD9;
+  visibility: hidden;
+  /* transform: scaleX(0);  middle */
+  transition: all 0.3s ease-in-out;
+
+}
+
+.und:hover:before {
+  visibility: visible;
+  /* transform: scaleX(1);  middle  */
+  width: 100%;
+}
+
+#icon{
+ cursor:pointer;
+ width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
