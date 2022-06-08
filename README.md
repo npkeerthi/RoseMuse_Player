@@ -7,5 +7,6 @@
   <img width=300 src="https://media.giphy.com/media/lS0Z4njQCnJdFELmAs/giphy.gif"> 
 </a>
 
-- Rose Gold Muse
+
+- [Rose Gold Muse](https://npkeerthi.github.io/RoseMuse_Player/Rose%20Muse%20Player/)
 <!-- <img src="https://media.giphy.com/media/ybUMHbeVLSUk7SLHsl/giphy.gif"> -->
